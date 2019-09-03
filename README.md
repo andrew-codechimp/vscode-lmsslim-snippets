@@ -5,7 +5,7 @@ Snippets for Logitech Media Server dev, provides both perl and html snippets to 
 ## Installation
 Type `cmd + shift + p` to launch command palette and choose `Extensions: Install Extension`. Search for `lms slim snippets` and install.
 
-Installation link (if your are not seeing this from inside VSCode): https://marketplace.visualstudio.com/items?itemName=codechimp.lmsslim-snippets#overview
+Installation link (if your are not seeing this from inside VSCode): https://marketplace.visualstudio.com/items?itemName=codechimp.lmsslim-snippets
 
 
 ## Snippets
