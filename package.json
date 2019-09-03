@@ -1,0 +1,37 @@
+{
+    "name": "lmsslim-snippets",
+    "displayName": "LMS Slim Snippets",
+    "description": "Snippets for Logitech Media Server dev",
+    "icon": "images/lms128.png",
+    "publisher": "CodeChimp",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codechimp-org/vscode-lmsslim-snippets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/codechimp-org/vscode-lmsslim-snippets/issues"
+    },
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "perl",
+                "path": "./snippets/perl.json"
+            },
+            {
+                "language": "perl",
+                "path": "./snippets/slim-perl.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/slim-html.json"
+            }
+        ]
+    }
+}

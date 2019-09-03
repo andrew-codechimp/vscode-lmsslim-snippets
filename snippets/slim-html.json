@@ -1,0 +1,30 @@
+{
+	"Slim Setting Title": {
+		"prefix": "slimsettingtitle",
+		"body": [
+			"[% WRAPPER setting title=\"${1:titlestring}\" desc=\"\" %]",
+			"<div class=\"prefDesc\">[% \"${2:descriptionstring}\" | string %]</div>",
+			"[% END %]"
+		],
+		"description": "Slim Setting Title"
+	},
+	"Slim Setting Text Input": {
+		"prefix": "slimsettinginputtext",
+		"body": [
+			"[% WRAPPER setting title=\"${1:titlestring}\" desc=\"${2:hintstring}\" %]",
+			"<input type=\"text\" class=\"stdedit\" name=\"pref_${3:preference}\" id=\"pref_${3:preference}\" value=\"[% prefs.pref_${3:preference} %]\" size=\"40\">",
+			"[% END %]"
+		],
+		"description": "Slim Setting Text Input"
+	},
+	"Slim Setting Checkbox Input": {
+		"prefix": "slimsettinginputcheckbox",
+		"body": [
+			"[% WRAPPER setting title=\"\" desc=\"\" %]",
+			"<input type=\"checkbox\" name=\"pref_${1:preference}\" id=\"pref_${1:preference}\" [% IF prefs.pref_${1:preference} %] checked [% END %]>",
+			"<label for=\"pref_${1:preference}\">[% \"${2:titlestring}\" | string %]</label>",
+			"[% END %]"
+		],
+		"description": "Slim Setting Checkbox Input"
+	}
+}

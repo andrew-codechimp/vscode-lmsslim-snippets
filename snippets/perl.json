@@ -1,0 +1,26 @@
+{
+	"if": {
+		"prefix": "if",
+		"body": "if (${1:condition}) {\n\t$0\n}\n",
+		"description": "An if statement"
+	},
+	"for": {
+		"prefix": "for",
+		"body": "for my \\$$1 (@\\$$2) {\n\t$0\n}\n",
+		"description": "A for statement"
+	},
+	"Class Method Arguments": {
+		"prefix": "argsclass",
+		"body": [
+			"my (\\$class, $1) = @_;"
+		],
+		"description": "Class Method Arguments"
+	},
+	"Object Method Arguments": {
+		"prefix": "argsobject",
+		"body": [
+			"my (\\$self, $1) = @_;"
+		],
+		"description": "Object Method Arguments"
+	}
+}

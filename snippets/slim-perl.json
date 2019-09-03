@@ -1,0 +1,44 @@
+{
+    "Slim Use Log": {
+        "prefix": "slimloguse",
+        "body": [
+            "use Slim::Utils::Log;"
+        ],
+        "description": "Slim Use Log"
+    },
+    "Slim Log Init": {
+        "prefix": "slimloginit",
+        "body": [
+            "my \\$log = logger('plugin.$1');"
+        ],
+        "description": "Slim Init Log"
+    },
+    "Slim Log Debug": {
+        "prefix": "slimlogdebug",
+        "body": [
+            "main::DEBUGLOG && \\$log->is_debug && \\$log->debug(\"$1\");"
+        ],
+        "description": "Slim Debug Log"
+    },
+    "Slim Log Info": {
+        "prefix": "slimloginfo",
+        "body": [
+            "main::INFOLOG && \\$log->is_info && \\$log->info(\"$1\");"
+        ],
+        "description": "Slim Info Log"
+    },
+    "Slim Log Warn": {
+        "prefix": "slimlogwarn",
+        "body": [
+            "\\$log->warn(\"$1\");"
+        ],
+        "description": "Slim Warn Log"
+    },
+    "Slim Log Error": {
+        "prefix": "slimlogerror",
+        "body": [
+            "\\$log->error(\"$1\");"
+        ],
+        "description": "Slim Error Log"
+    }
+}
