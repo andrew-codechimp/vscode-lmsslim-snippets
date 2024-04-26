@@ -1,7 +1,7 @@
 {
     "name": "lmsslim-snippets",
     "displayName": "LMS Slim Snippets",
-    "description": "Snippets for Logitech Media Server dev",
+    "description": "Snippets for Lyrion Media Server dev",
     "icon": "images/lms128.png",
     "publisher": "CodeChimp",
     "repository": {
@@ -11,7 +11,7 @@
     "bugs": {
         "url": "https://github.com/codechimp-org/vscode-lmsslim-snippets/issues"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.37.0"
     },
