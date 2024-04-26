@@ -1,6 +1,6 @@
 # LMS Slim Snippets
 
-Snippets for Logitech Media Server dev, provides both perl and html snippets to help with common slim dev tasks.
+Snippets for Lyrion Media Server (formerly Logitech Media Server) dev, provides both perl and html snippets to help with common slim dev tasks.
 
 ## Installation
 Type `cmd + shift + p` to launch command palette and choose `Extensions: Install Extension`. Search for `lms slim snippets` and install.
