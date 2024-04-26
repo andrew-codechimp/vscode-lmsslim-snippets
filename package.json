@@ -18,6 +18,10 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "Perl",
+        "snippets"
+    ],
     "contributes": {
         "snippets": [
             {
