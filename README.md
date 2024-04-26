@@ -50,8 +50,9 @@ If your change is useful to others then consider a pull request to get it added 
 
 ## Release Notes
 
+### 1.0.1
+Rename to Lyrion
+
 ### 1.0.0
 Initial release
 
-## 1.0.1
-Rename to Lyrion
