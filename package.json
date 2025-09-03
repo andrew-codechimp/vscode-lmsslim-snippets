@@ -6,12 +6,12 @@
     "publisher": "CodeChimp",
     "repository": {
         "type": "git",
-        "url": "https://github.com/codechimp-org/vscode-lmsslim-snippets.git"
+        "url": "https://github.com/andrew-codechimp/vscode-lmsslim-snippets.git"
     },
     "bugs": {
-        "url": "https://github.com/codechimp-org/vscode-lmsslim-snippets/issues"
+        "url": "https://github.com/andrew-codechimp/vscode-lmsslim-snippets/issues"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.37.0"
     },
@@ -37,5 +37,8 @@
                 "path": "./snippets/slim-html.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^2.15.0"
     }
 }
